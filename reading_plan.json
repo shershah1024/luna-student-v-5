@@ -1,0 +1,90 @@
+{
+  "total_points": 12,
+  "questions": [
+    {
+      "question_number": 1,
+      "type": "multiple_choice",
+      "points": 1,
+      "rationale": "Reading comprehension: multiple_choice question (1 points) - target 4 questions for A1 level."
+    },
+    {
+      "question_number": 2,
+      "type": "multiple_choice",
+      "points": 1,
+      "rationale": "Reading comprehension: multiple_choice question (1 points) - target 4 questions for A1 level."
+    },
+    {
+      "question_number": 3,
+      "type": "multiple_choice",
+      "points": 1,
+      "rationale": "Reading comprehension: multiple_choice question (1 points) - target 4 questions for A1 level."
+    },
+    {
+      "question_number": 4,
+      "type": "multiple_choice",
+      "points": 1,
+      "rationale": "Reading comprehension: multiple_choice question (1 points) - target 4 questions for A1 level."
+    },
+    {
+      "question_number": 5,
+      "type": "true_false",
+      "points": 1,
+      "rationale": "Reading comprehension: true_false question (1 points) - target 3 questions for A1 level."
+    },
+    {
+      "question_number": 6,
+      "type": "true_false",
+      "points": 1,
+      "rationale": "Reading comprehension: true_false question (1 points) - target 3 questions for A1 level."
+    },
+    {
+      "question_number": 7,
+      "type": "true_false",
+      "points": 1,
+      "rationale": "Reading comprehension: true_false question (1 points) - target 3 questions for A1 level."
+    },
+    {
+      "question_number": 8,
+      "type": "fill_in_the_blanks",
+      "points": 1,
+      "rationale": "Reading comprehension: fill_in_the_blanks question (1 points) - target 2 questions for A1 level."
+    },
+    {
+      "question_number": 9,
+      "type": "fill_in_the_blanks",
+      "points": 1,
+      "rationale": "Reading comprehension: fill_in_the_blanks question (1 points) - target 2 questions for A1 level."
+    },
+    {
+      "question_number": 10,
+      "type": "multiple_choice",
+      "points": 1,
+      "rationale": "Additional multiple_choice question (1 points) to reach exact target."
+    },
+    {
+      "question_number": 11,
+      "type": "multiple_choice",
+      "points": 1,
+      "rationale": "Additional multiple_choice question (1 points) to reach exact target."
+    },
+    {
+      "question_number": 12,
+      "type": "multiple_choice",
+      "points": 1,
+      "rationale": "Additional multiple_choice question (1 points) to reach exact target."
+    }
+  ],
+  "point_distribution": {
+    "multiple_choice_total": 7,
+    "true_false_total": 3,
+    "short_answer_total": 0,
+    "match_the_following_total": 0,
+    "sentence_reordering_total": 0,
+    "fill_in_the_blanks_total": 2
+  },
+  "validation": {
+    "points_match": true,
+    "computed_total": 12,
+    "target_total": 12
+  }
+}
