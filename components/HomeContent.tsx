@@ -58,23 +58,23 @@ const HomeContent = () => {
           <div className="flex justify-start mb-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-full text-sm font-medium shadow-lg">
               <Sparkles className="w-4 h-4" />
-              <span>Meet Luna - Your AI Teaching Partner</span>
+              <span>Meet Luna - Your AI Learning Partner</span>
             </div>
           </div>
 
           {/* Main Heading with Playful Typography */}
           <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight max-w-5xl">
-            Students Learn Languages{' '}
+            Your{' '}
             <span className="relative inline-block">
-              <span className="italic text-purple-600">3x Faster</span>
+              <span className="italic text-purple-600">AI Companion</span>
               <svg className="absolute -bottom-2 left-0 w-full" height="12" viewBox="0 0 200 12" fill="none">
                 <path d="M2 10C50 5, 100 5, 198 10" stroke="#FCD34D" strokeWidth="6" strokeLinecap="round"/>
               </svg>
             </span>
-            ,<br />
-            Teachers Save{' '}
+            <br />
+            for{' '}
             <span className="relative inline-block">
-              <span className="italic text-amber-500">11 Hours Weekly</span>
+              <span className="italic text-amber-500">Language Learning</span>
               <svg className="absolute -bottom-2 left-0 w-full" height="12" viewBox="0 0 200 12" fill="none">
                 <path d="M2 10C50 5, 100 5, 198 10" stroke="#C084FC" strokeWidth="6" strokeLinecap="round"/>
               </svg>
@@ -82,9 +82,9 @@ const HomeContent = () => {
           </h1>
 
           <p className="text-lg text-gray-600 max-w-2xl leading-relaxed">
-            Luna transforms language learning with unlimited speaking practice, instant
-            feedback, and adaptive lessons that keep every student in their optimal
-            learning zone - while automating 70% of your prep and grading work.
+            Complete teacher-assigned tasks, practice speaking, and master any language
+            with unlimited AI support. Get instant feedback that adapts to your level,
+            available 24/7 whenever you need to practice.
           </p>
         </motion.div>
 
@@ -98,7 +98,7 @@ const HomeContent = () => {
             className="space-y-6"
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Our <span className="italic text-purple-600">interactive</span> features
+              Your <span className="italic text-purple-600">interactive</span> learning experience
             </h2>
 
             {/* Feature Cards */}
@@ -111,9 +111,9 @@ const HomeContent = () => {
                   <MessageSquare className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">AI Conversation Practice</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Assignments</h3>
                   <p className="text-gray-600 text-sm">
-                    Students chat with Luna for unlimited speaking practice in real-time conversations
+                    Work on teacher-assigned tasks with AI support for speaking, listening, reading, and writing
                   </p>
                 </div>
               </div>
@@ -128,9 +128,9 @@ const HomeContent = () => {
                   <BookOpen className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Smart Exercises</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Practice Anytime</h3>
                   <p className="text-gray-600 text-sm">
-                    Test understanding with interactive quizzes that adapt to each student's level
+                    Get unlimited speaking practice in any language, 24/7, with no judgment
                   </p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const HomeContent = () => {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Instant Feedback</h3>
                   <p className="text-gray-600 text-sm">
-                    AI-powered assessment gives students immediate corrections and guidance
+                    Get immediate corrections and guidance from AI-powered assessment
                   </p>
                 </div>
               </div>
@@ -158,10 +158,10 @@ const HomeContent = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => router.push('/teachers/assignments')}
+                onClick={() => router.push('/lessons')}
                 className="group flex items-center justify-center gap-2 px-8 py-4 bg-purple-600 text-white rounded-full text-base font-semibold hover:bg-purple-700 transition-all shadow-lg"
               >
-                Get Started
+                Start Learning
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.button>
               <motion.button
@@ -182,7 +182,7 @@ const HomeContent = () => {
             className="space-y-6"
           >
             <div className="bg-white/80 backdrop-blur rounded-3xl p-8 shadow-xl border-2 border-gray-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Why teachers <span className="italic text-purple-600">love</span> us</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Why learners <span className="italic text-purple-600">love</span> Luna</h3>
 
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
@@ -191,7 +191,7 @@ const HomeContent = () => {
                   </div>
                   <div>
                     <p className="text-4xl font-bold text-gray-900">{formatNumber(stats.assignments)}+</p>
-                    <p className="text-sm text-gray-600">Ready-to-use exercises</p>
+                    <p className="text-sm text-gray-600">Practice exercises</p>
                   </div>
                 </div>
 
@@ -200,8 +200,8 @@ const HomeContent = () => {
                     <Sparkles className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <p className="text-4xl font-bold text-gray-900 tabular-nums">{stats.weeklyHours}</p>
-                    <p className="text-sm text-gray-600">Hours saved per week</p>
+                    <p className="text-4xl font-bold text-gray-900 tabular-nums">24/7</p>
+                    <p className="text-sm text-gray-600">Available anytime</p>
                   </div>
                 </div>
 
@@ -225,16 +225,16 @@ const HomeContent = () => {
               className="bg-gradient-to-br from-purple-600 to-purple-700 rounded-3xl p-8 shadow-xl text-white"
             >
               <p className="text-lg italic mb-4">
-                "Luna has completely transformed how I teach. My students are more engaged,
-                and I finally have time to focus on what matters most."
+                "Luna makes it so easy to complete my assignments. I can practice speaking
+                French anytime, and the instant feedback helps me improve faster than ever!"
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center font-bold">
-                  MK
+                  SK
                 </div>
                 <div>
-                  <p className="font-semibold">Maria Klein</p>
-                  <p className="text-sm text-purple-200">German Teacher</p>
+                  <p className="font-semibold">Sarah Kim</p>
+                  <p className="text-sm text-purple-200">French Learner, B1 Level</p>
                 </div>
               </div>
             </motion.div>

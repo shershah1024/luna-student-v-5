@@ -50,7 +50,7 @@ const LanguageEffectivenessSection = () => {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
           >
-            Students learn languages{' '}
+            Complete assignments{' '}
             <span className="relative inline-block">
               <span className="italic text-purple-600">3x faster</span>
               <svg className="absolute -bottom-2 left-0 w-full" height="10" viewBox="0 0 200 10" fill="none">
@@ -58,7 +58,7 @@ const LanguageEffectivenessSection = () => {
               </svg>
             </span>
             <span className="block text-2xl md:text-3xl mt-4 text-gray-700 font-normal">
-              with personalized AI support that never gets tired
+              with AI support that's always available
             </span>
           </motion.h2>
 
@@ -69,9 +69,9 @@ const LanguageEffectivenessSection = () => {
             transition={{ delay: 0.2 }}
             className="text-xl text-gray-600 mb-8"
           >
-            Luna transforms language learning by providing unlimited speaking practice,
-            instant feedback, and adaptive content that maintains optimal comprehension
-            levels for every student, every time.
+            Luna is your companion for language learning. Work on teacher-assigned tasks,
+            practice speaking in any language, and get instant feedback that adapts to
+            your level—available 24/7 whenever you need support.
           </motion.p>
 
           {/* Learning outcomes comparison */}
@@ -83,26 +83,26 @@ const LanguageEffectivenessSection = () => {
             whileHover={{ scale: 1.02, rotate: -0.5 }}
             className="bg-white rounded-3xl shadow-xl p-8 mb-8 border-2 border-purple-100"
           >
-            <h3 className="text-lg font-semibold text-gray-900 mb-6">Traditional vs. Luna-Enhanced Learning</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-6">Without Luna vs. With Your AI Companion</h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="text-left">
-                <h4 className="font-medium text-red-600 mb-3">❌ Traditional Classroom</h4>
+                <h4 className="font-medium text-red-600 mb-3">❌ Without Luna</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 2-3 minutes speaking practice per student per class</li>
-                  <li>• Feedback delayed by days or weeks</li>
-                  <li>• One-size-fits-all content</li>
-                  <li>• Limited practice outside class</li>
-                  <li>• Students fall behind silently</li>
+                  <li>• Wait for class to practice speaking</li>
+                  <li>• Struggle alone on assignments</li>
+                  <li>• Feedback takes days to receive</li>
+                  <li>• Limited practice opportunities</li>
+                  <li>• Get stuck with no help available</li>
                 </ul>
               </div>
               <div className="text-left">
                 <h4 className="font-medium text-green-600 mb-3">✅ With Luna</h4>
                 <ul className="space-y-2 text-gray-700 font-medium">
-                  <li>• Unlimited 24/7 speaking practice</li>
-                  <li>• Instant corrective feedback</li>
-                  <li>• Content adapted to each student's level</li>
-                  <li>• Practice anytime, anywhere</li>
-                  <li>• Real-time alerts when students struggle</li>
+                  <li>• Practice speaking 24/7 in any language</li>
+                  <li>• Get AI help on assignments instantly</li>
+                  <li>• Instant feedback on pronunciation</li>
+                  <li>• Unlimited practice anytime, anywhere</li>
+                  <li>• Always-available learning support</li>
                 </ul>
               </div>
             </div>
@@ -119,17 +119,17 @@ const LanguageEffectivenessSection = () => {
             <motion.div whileHover={{ scale: 1.05, rotate: -2 }} className="bg-gradient-to-br from-blue-100 to-blue-50 border-2 border-blue-200 rounded-3xl p-6 shadow-lg">
               <div className="text-3xl font-bold text-blue-600 mb-2">300%</div>
               <div className="text-gray-700 font-medium">More speaking practice</div>
-              <div className="text-sm text-gray-600 mt-1">Every student, every day</div>
+              <div className="text-sm text-gray-600 mt-1">Available to you, anytime</div>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} className="bg-gradient-to-br from-green-100 to-green-50 border-2 border-green-200 rounded-3xl p-6 shadow-lg">
               <div className="text-3xl font-bold text-green-600 mb-2">87%</div>
-              <div className="text-gray-700 font-medium">Achieve fluency goals</div>
+              <div className="text-gray-700 font-medium">Achieve fluency faster</div>
               <div className="text-sm text-gray-600 mt-1">vs. 62% traditional</div>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05, rotate: 2 }} className="bg-gradient-to-br from-purple-100 to-purple-50 border-2 border-purple-200 rounded-3xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-purple-600 mb-2">2x faster</div>
-              <div className="text-gray-700 font-medium">Progress to next level</div>
-              <div className="text-sm text-gray-600 mt-1">A1 to B2 in 18 months</div>
+              <div className="text-3xl font-bold text-purple-600 mb-2">12+</div>
+              <div className="text-gray-700 font-medium">Languages supported</div>
+              <div className="text-sm text-gray-600 mt-1">Practice any language</div>
             </motion.div>
           </motion.div>
         </div>
@@ -143,25 +143,25 @@ const EffectivenessSection = () => {
   const principles = [
     {
       title: "Comprehensible Input at 95-98%",
-      description: "Students understand almost everything while naturally acquiring new language patterns. Luna maintains this optimal zone automatically for each learner.",
+      description: "You understand almost everything while naturally acquiring new language patterns. Luna maintains this optimal zone automatically for you.",
       icon: <Brain className="w-5 h-5" />,
       color: "from-purple-500 to-purple-600"
     },
     {
       title: "Immediate Corrective Feedback",
-      description: "Students know instantly what's right or wrong, forming correct language patterns from the start. No more fossilized errors from delayed correction.",
+      description: "You know instantly what's right or wrong, forming correct language patterns from the start. No more fossilized errors from delayed correction.",
       icon: <Zap className="w-5 h-5" />,
       color: "from-amber-500 to-amber-600"
     },
     {
       title: "Meaningful Interaction",
-      description: "Students negotiate meaning with patient AI partners, developing real communication skills through authentic conversation practice.",
+      description: "Negotiate meaning with patient AI partners, developing real communication skills through authentic conversation practice.",
       icon: <MessageCircle className="w-5 h-5" />,
       color: "from-blue-500 to-blue-600"
     },
     {
       title: "Perfect Memory Timing",
-      description: "Words and structures reappear exactly when students are about to forget them, moving knowledge from short-term to permanent memory.",
+      description: "Words and structures reappear exactly when you're about to forget them, moving knowledge from short-term to permanent memory.",
       icon: <TrendingUp className="w-5 h-5" />,
       color: "from-green-500 to-green-600"
     }
@@ -227,10 +227,10 @@ const EffectivenessSection = () => {
 // Every student succeeds section
 const EveryStudentSucceedsSection = () => {
   const challenges = [
-    { level: "A1 Beginners", needs: "Building confidence with basics", color: "bg-blue-500" },
-    { level: "A2 Elementary", needs: "Expanding into real conversations", color: "bg-green-500" },
-    { level: "B1 Intermediate", needs: "Developing fluency and accuracy", color: "bg-amber-500" },
-    { level: "B2 Upper-Int", needs: "Mastering complex communication", color: "bg-purple-500" }
+    { level: "German", needs: "Complete speaking assignments", color: "bg-blue-500" },
+    { level: "French", needs: "Practice pronunciation", color: "bg-green-500" },
+    { level: "Spanish", needs: "Work on grammar tasks", color: "bg-amber-500" },
+    { level: "12+ more", needs: "Any language you're learning", color: "bg-purple-500" }
   ];
 
   return (
@@ -247,11 +247,11 @@ const EveryStudentSucceedsSection = () => {
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-medium mb-4 shadow-lg">
                 <Users className="w-4 h-4" />
-                <span>Personalized for every student</span>
+                <span>Personalized for you</span>
               </div>
 
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Every student learns at their{' '}
+                Learn at your{' '}
                 <span className="relative inline-block">
                   <span className="italic text-purple-600">perfect</span>
                   <svg className="absolute -bottom-2 left-0 w-full" height="10" viewBox="0 0 200 10" fill="none">
@@ -262,30 +262,31 @@ const EveryStudentSucceedsSection = () => {
               </h2>
 
               <p className="text-xl text-gray-600 mb-6">
-                In traditional classes, advanced students get bored while struggling students
-                fall behind. Luna keeps everyone in their optimal learning zone.
+                Complete teacher-assigned tasks at your own pace with AI support that
+                adapts to your level. Whether you're practicing German, French, Spanish,
+                or any other language, Luna keeps you in your optimal learning zone.
               </p>
 
               <p className="text-lg text-gray-700 font-medium mb-6">
-                How Luna ensures every student succeeds:
+                How Luna supports your learning:
               </p>
 
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
-                  <span className="text-gray-700">Content automatically adjusts to maintain 95% comprehension</span>
+                  <span className="text-gray-700">Work on assignments with instant AI guidance</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
-                  <span className="text-gray-700">Struggling students get extra support without shame</span>
+                  <span className="text-gray-700">Practice speaking anytime without judgment</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
-                  <span className="text-gray-700">Advanced students receive challenging extensions</span>
+                  <span className="text-gray-700">Get immediate feedback on pronunciation</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
-                  <span className="text-gray-700">Everyone progresses without waiting for others</span>
+                  <span className="text-gray-700">Learn at your speed, available 24/7</span>
                 </li>
               </ul>
 
@@ -311,7 +312,7 @@ const EveryStudentSucceedsSection = () => {
               className="bg-white rounded-3xl shadow-xl p-6 border-2 border-purple-100"
             >
               <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                One class, <span className="italic text-purple-600">many journeys</span>:
+                Practice <span className="italic text-purple-600">any language</span>:
               </h3>
               <div className="space-y-3">
                 {challenges.map((challenge, index) => (
@@ -325,7 +326,7 @@ const EveryStudentSucceedsSection = () => {
               </div>
               <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-2 border-green-200">
                 <p className="text-green-800 font-medium">
-                  ✓ Each student gets exactly what they need to progress
+                  ✓ Your AI companion supports all languages
                 </p>
               </div>
             </motion.div>
@@ -442,7 +443,7 @@ const SkillsDevelopmentSection = () => {
   );
 };
 
-// Teacher dashboard preview
+// Learner dashboard preview
 const DashboardPreviewSection = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-amber-50 to-white relative overflow-hidden">
@@ -451,10 +452,10 @@ const DashboardPreviewSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Know <span className="italic text-purple-600">exactly</span> where every student stands
+            Track <span className="italic text-purple-600">your progress</span> in real-time
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Real-time analytics that actually help you teach better
+            See exactly how you're improving with detailed analytics
           </p>
         </div>
 
@@ -466,60 +467,60 @@ const DashboardPreviewSection = () => {
           className="bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-purple-100"
         >
           <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6">
-            <h3 className="text-lg font-semibold">Teacher Dashboard</h3>
+            <h3 className="text-lg font-semibold">Your Learning Dashboard</h3>
           </div>
 
           <div className="p-8">
             <div className="grid lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border-2 border-blue-200">
                 <div className="flex items-center justify-between mb-4">
-                  <h4 className="font-semibold text-gray-900">Class Overview</h4>
-                  <span className="text-green-600 text-sm font-medium px-3 py-1 bg-green-100 rounded-full">Live</span>
+                  <h4 className="font-semibold text-gray-900">Your Progress</h4>
+                  <span className="text-green-600 text-sm font-medium px-3 py-1 bg-green-100 rounded-full">Active</span>
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Students Active Now</span>
-                    <span className="font-bold text-gray-900">18/24</span>
+                    <span className="text-gray-600">Current Level</span>
+                    <span className="font-bold text-gray-900">B1</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Avg. Weekly Progress</span>
+                    <span className="text-gray-600">Weekly Progress</span>
                     <span className="font-bold text-green-600">+12%</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Assignments Completed</span>
+                    <span className="text-gray-600">Exercises Completed</span>
                     <span className="font-bold text-gray-900">87%</span>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl p-6 border-2 border-amber-200">
-                <h4 className="font-semibold text-gray-900 mb-4">Students Needing Support</h4>
+                <h4 className="font-semibold text-gray-900 mb-4">Areas to Practice</h4>
                 <div className="space-y-2">
-                  <div className="flex items-center justify-between p-2 bg-red-100 rounded-xl border border-red-200">
-                    <span className="text-sm">Maria S. - Grammar struggles</span>
-                    <button className="text-red-600 text-xs font-medium px-2 py-1 bg-red-200 rounded-full">Intervene</button>
+                  <div className="flex items-center justify-between p-2 bg-amber-100 rounded-xl border border-amber-200">
+                    <span className="text-sm">Grammar: Dative case</span>
+                    <button className="text-amber-700 text-xs font-medium px-2 py-1 bg-amber-200 rounded-full">Practice</button>
                   </div>
-                  <div className="flex items-center justify-between p-2 bg-yellow-100 rounded-xl border border-yellow-200">
-                    <span className="text-sm">Tom K. - Behind on speaking</span>
-                    <button className="text-yellow-700 text-xs font-medium px-2 py-1 bg-yellow-200 rounded-full">Assign</button>
+                  <div className="flex items-center justify-between p-2 bg-blue-100 rounded-xl border border-blue-200">
+                    <span className="text-sm">Speaking: Past tense</span>
+                    <button className="text-blue-700 text-xs font-medium px-2 py-1 bg-blue-200 rounded-full">Start</button>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 border-2 border-green-200">
-                <h4 className="font-semibold text-gray-900 mb-4">Top Performers</h4>
+                <h4 className="font-semibold text-gray-900 mb-4">Your Strengths</h4>
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Anna L.</span>
-                    <span className="text-green-600 font-medium">A2→B1</span>
+                    <span className="text-sm text-gray-600">Reading</span>
+                    <span className="text-green-600 font-medium">98%</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">James R.</span>
-                    <span className="text-green-600 font-medium">B1→B2</span>
+                    <span className="text-sm text-gray-600">Vocabulary</span>
+                    <span className="text-green-600 font-medium">95%</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Lisa M.</span>
-                    <span className="text-green-600 font-medium">A1→A2</span>
+                    <span className="text-sm text-gray-600">Listening</span>
+                    <span className="text-green-600 font-medium">92%</span>
                   </div>
                 </div>
               </div>
@@ -527,8 +528,8 @@ const DashboardPreviewSection = () => {
 
             <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl border-2 border-blue-200">
               <p className="text-blue-800 text-sm">
-                <strong>AI Insight:</strong> Your class shows strongest progress in reading comprehension.
-                Consider increasing speaking practice assignments to balance skill development.
+                <strong>AI Insight:</strong> Great job completing your teacher's assignments!
+                Try some extra speaking practice to reinforce what you've learned today.
               </p>
             </div>
           </div>
@@ -591,9 +592,9 @@ const FinalCTA = () => {
           className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-3xl p-12 text-center text-white shadow-2xl border-2 border-purple-400"
         >
           <h2 className="text-4xl font-bold mb-4">
-            Transform your{' '}
+            Start learning with{' '}
             <span className="relative inline-block">
-              <span className="italic">language teaching</span>
+              <span className="italic">your AI companion</span>
               <svg className="absolute -bottom-2 left-0 w-full" height="10" viewBox="0 0 300 10" fill="none">
                 <path d="M2 8C100 4, 200 4, 298 8" stroke="#FCD34D" strokeWidth="5" strokeLinecap="round"/>
               </svg>
@@ -601,17 +602,17 @@ const FinalCTA = () => {
             {' '}today
           </h2>
           <p className="text-xl mb-8 text-purple-100">
-            Give your students the personalized support they need to succeed
+            Complete assignments faster and practice any language with 24/7 AI support
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center mb-6">
-            <Link href="/free-trial">
+            <Link href="/lessons">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-white text-purple-600 rounded-full font-semibold hover:bg-gray-100 transition-all shadow-lg"
               >
-                Start free trial
+                Start Learning Free
               </motion.button>
             </Link>
             <Link href="/demo">
@@ -620,7 +621,7 @@ const FinalCTA = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-purple-700 text-white rounded-full font-semibold hover:bg-purple-800 transition-all border-2 border-white/30"
               >
-                Book a demo
+                See How It Works
               </motion.button>
             </Link>
           </div>

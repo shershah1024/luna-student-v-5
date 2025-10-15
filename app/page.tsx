@@ -4,16 +4,16 @@ import ResearchBasedHomepage from '@/components/ResearchBasedHomepage';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Luna — Save 11 Hours Weekly on Language Teaching Tasks',
+  title: 'Luna — Your AI Companion for Language Learning',
   description:
-    'Research-backed AI that automates 70% of prep and grading. Create differentiated lessons in 2 minutes. Grade instantly. Track progress automatically. Used by 500+ schools.',
+    'Complete teacher-assigned tasks with unlimited speaking practice, instant feedback, and personalized support. Practice any language 24/7 with your AI learning companion.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Luna — Save 11 Hours Weekly on Language Teaching Tasks',
+    title: 'Luna — Your AI Companion for Language Learning',
     description:
-      'Research-backed AI that automates 70% of prep and grading. Create differentiated lessons in 2 minutes. Grade instantly. Track progress automatically. Used by 500+ schools.',
+      'Complete teacher-assigned tasks with unlimited speaking practice, instant feedback, and personalized support. Practice any language 24/7 with your AI learning companion.',
     type: 'website',
     url: '/',
   },
@@ -37,7 +37,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'SoftwareApplication',
-            name: 'Luna — AI Teaching Assistant',
+            name: 'Luna — AI Language Learning Companion',
             applicationCategory: 'EducationApplication',
             operatingSystem: 'Web',
             offers: {
@@ -52,7 +52,7 @@ export default function HomePage() {
               reviewCount: '500',
             },
             description:
-              'Save 11 hours weekly on language teaching. Research-backed AI automates 70% of prep and grading while improving learning outcomes.',
+              'Your AI companion for language learning. Complete teacher-assigned tasks, practice speaking, and get instant feedback in any language, 24/7.',
           }),
         }}
       />
